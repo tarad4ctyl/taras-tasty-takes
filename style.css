@@ -192,3 +192,36 @@ footer {
 footer a {
     color: #FBFBFE;
 }
+@media (max-width: 700px) {
+    .header-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .search-form {
+        width: 100%;
+    }
+    .search-form input {
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        width: 100%;
+    }
+    main {
+        flex-direction: column;
+        padding: 25px 15px;
+        gap: 25px;
+    }
+    .featured-grid {
+        flex-direction: column;
+    }
+    .feedback {
+        width: 100%;
+    }
+    .intro img {
+        width: 100%;
+    }
+}
